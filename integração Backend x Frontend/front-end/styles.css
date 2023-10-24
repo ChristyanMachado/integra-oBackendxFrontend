@@ -1,0 +1,106 @@
+/* Estilo do corpo da página */
+body {
+    background: radial-gradient(ellipse at center, #4a00e0 0%, #000 70%);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* Estilo do formulário */
+form {
+    border: 2px solid #9400FF;
+    padding: 20px;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    text-align: center; /* Centraliza o texto no formulário */
+  }
+  
+  /* Estilo dos campos de entrada de texto */
+  form input[type="text"] {
+    display: block; /* Faz com que os campos de entrada fiquem em blocos */
+    margin: 0 auto; /* Centraliza os campos de entrada horizontalmente */
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: 1px solid #9400FF;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center; /* Centraliza o texto dentro dos campos de entrada */
+  }
+  
+  /* Estilo dos botões */
+  button {
+    background-color: #9400FF;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff00e6;
+  }
+  
+  /* Estilo das entradas de texto */
+  input[type="text"] {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: 1px solid #9400FF;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Estilo da tabela */
+  table {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #9400FF;
+  }
+  
+  /* Estilo do cabeçalho da tabela */
+  th {
+    background: #9400FF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilo das células da tabela */
+  td {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Efeito de luz em blur que segue o mouse */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, #9400FF, transparent);
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  /* Estilo para links */
+  a {
+    color: #ff00e6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #9400FF;
+  }
+  
+  

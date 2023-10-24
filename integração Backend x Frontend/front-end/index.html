@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Client Form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <form>
+            Client
+            <br><br>Nome: <input type="text" id="name"><br>
+            <br>Sobrenome: <input type="text" id="lastname"><br>
+            <br>Documento: <input type="text" id="document"><br>
+        </form>
+
+        <br><button onclick="postClient()">Create</button><br>
+        <br><button onclick="getClients()">Refresh</button><br>
+
+        <table>
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Documento</th>
+              </tr>
+            </thead>
+            <tbody id="client">
+            </tbody>
+          </table>
+          
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>
